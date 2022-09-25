@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 225, 225);
+}
+
+.cabeçalho {
+    background-color: rgb(255, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 2.5px 2.5px 4px rgb(51, 51, 51);
+}
+
+.cabeçalho h1 {
+    color: rgb(255, 228, 228);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    background-color: rgb(255, 124, 124);
+    box-shadow: 2.5px 2.5px 4px rgb(51, 51, 51);
+}
+
+.nome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.nome-sobrenome {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 30px;
+}
+
+.nome-sobrenome label {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.nome-sobrenome input {
+    width: 250px;
+    box-shadow: 2px 2px 3px black;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.contato-email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contato-email label {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.contato-email input {
+    width: 570px;
+    box-shadow: 2px 2px 3px black;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.contato-celular {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contato label {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.contato input {
+    width: 210px;
+    box-shadow: 2px 2px 3px black;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 570px;
+    margin-top: 40px;
+}
+
+.checkbox-container h4 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.checkbox {
+    margin-top: 15px;
+}
+
+.checkbox div {
+    margin-top: 5px;
+}
+
+.checkbox div label {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.checkbox div input {
+    box-shadow: 0px 0px 4px black;
+    border: 0px;
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.botao-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 570px;
+    margin-top: 40px;
+}
+
+.botao-container button {
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 0px 0px 4px black;
+}
